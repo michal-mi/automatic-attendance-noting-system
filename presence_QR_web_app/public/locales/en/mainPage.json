@@ -1,0 +1,12 @@
+{
+  "attendanceButton": "Presence",
+  "calendarButton": "Calendar",
+  "classesButton": "Classes",
+  "classroomsButton": "Classrooms",
+  "facilitiesButton": "Facilities",
+  "groupsButton": "Groups",
+  "pageName": "Home page",
+  "scheduleButton": "Schedule",
+  "subjectsButton": "Subjects",
+  "usersButton": "Users"
+}

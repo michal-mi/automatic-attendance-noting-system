@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/title_home"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle">
+
+        <ImageButton
+            android:id="@+id/userIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/account"
+            android:contentDescription="@string/description_user_icon" />
+
+        <ImageButton
+            android:id="@+id/settingsIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/settings"
+            android:contentDescription="@string/description_settings_icon" />
+
+        <ImageButton
+            android:id="@+id/logoutIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logout"
+            android:contentDescription="@string/description_logout_icon" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/presenceButton"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/home_button"
+        android:drawableTop="@drawable/presence"
+        android:fontFamily="@font/open_sans"
+        android:paddingTop="20dp"
+        android:text="@string/title_presence"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/scheduleButton"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/home_button"
+        android:drawableTop="@drawable/schedule"
+        android:fontFamily="@font/open_sans"
+        android:paddingTop="20dp"
+        android:text="@string/text_schedule"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/presenceButton" />
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/scan_home_button"
+        android:drawableStart="@drawable/qr"
+        android:fontFamily="@font/open_sans"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:text="@string/text_scan_qr"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scheduleButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

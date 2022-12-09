@@ -1,0 +1,21 @@
+{
+  "dateOfBirthLabel": "Data urodzenia*",
+  "dateOfBirthPlaceholder": "Data urodzenia",
+  "degreeLabel": "Stopień naukowy*",
+  "degreePlaceholder": "Tytuł naukowy",
+  "deleteUserButton": "Usuń użytkownika",
+  "emailAddressLabel": "Adres email*",
+  "emailAddressPlaceholder": "Adres email",
+  "facilitySelect": "Placówka*",
+  "firstNameLabel": "Imię*",
+  "firstNamePlaceholder": "Imię",
+  "numberOfGroupsDefault": "--- wybierz liczbę grup ---",
+  "numberOfGroupsSelect": "Liczba grup",
+  "pageName": "Szczegóły / edycja użytkownika",
+  "saveChangesButton": "Zapisz zmiany",
+  "secondNameLabel": "Drugie imię",
+  "secondNamePlaceholder": "Drugie imię",
+  "surnameLabel": "Nazwisko*",
+  "surnamePlaceholder": "Nazwisko",
+  "userRoleSelect": "Podaj typ użytkownika"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/hour_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#FFFFFF"
+        android:text="@string/text_example_hour" />
+
+    <Button
+        android:id="@+id/monday_square"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:background="#FF5722" />
+
+    <Button
+        android:id="@+id/tuesday_square"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:background="#FF5722" />
+
+    <Button
+        android:id="@+id/wednesday_square"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:background="#FF5722" />
+
+    <Button
+        android:id="@+id/thursday_square"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:background="#FF5722" />
+
+    <Button
+        android:id="@+id/friday_square"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:background="#FF5722" />
+
+    <Button
+        android:id="@+id/saturday_square"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:background="#FF5722" />
+
+    <Button
+        android:id="@+id/sunday_square"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:background="#FF5722" />
+
+</LinearLayout>

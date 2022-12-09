@@ -1,0 +1,14 @@
+{
+  "administrator": "Administrator",
+  "facilityManager": "Menadżer placówki",
+  "lecturer": "Prowadzący zajęcia",
+  "loggedAsAdmin": "Zalogowano jako administrator",
+  "loggedAsFacilityManager": "Zalogowano jako manager placówki",
+  "loggedAsLecturer": "Zalogowano jako wykładowca",
+  "roleBoxError": "Wystąpił błąd!!",
+  "SE": "Błąd...",
+  "SS": "Udało się!",
+  "SText": "Kod błędu: {{err.response.status}}\nNazwa błędu:  {{err.code}}\nTreść błędu: {{err.toString()}}\nInformacje: {{err.response.data}}",
+  "STitle": "Błąd",
+  "student": "Student"
+}

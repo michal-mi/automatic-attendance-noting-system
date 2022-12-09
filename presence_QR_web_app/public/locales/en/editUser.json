@@ -1,0 +1,21 @@
+{
+  "dateOfBirthLabel": "Date of birth*",
+  "dateOfBirthPlaceholder": "Date of birth",
+  "degreeLabel": "Academic degree*",
+  "degreePlaceholder": "Academic title",
+  "deleteUserButton": "Delete user",
+  "emailAddressLabel": "Email address*",
+  "emailAddressPlaceholder": "E-mail adress",
+  "facilitySelect": "Facility*",
+  "firstNameLabel": "Name*",
+  "firstNamePlaceholder": "Name",
+  "numberOfGroupsDefault": "--- choose the number of groups ---",
+  "numberOfGroupsSelect": "Number of groups",
+  "pageName": "User details/edition",
+  "saveChangesButton": "Save Changes",
+  "secondNameLabel": "Second name",
+  "secondNamePlaceholder": "Second name",
+  "surnameLabel": "Last name*",
+  "surnamePlaceholder": "Last name",
+  "userRoleSelect": "Enter the user type"
+}

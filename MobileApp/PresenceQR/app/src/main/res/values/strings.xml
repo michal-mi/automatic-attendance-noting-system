@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">PresenceQR</string>
+    <string name="title_login">Logowanie</string>
+    <string name="text_e_mail">Adres e-mail</string>
+    <string name="text_password">Hasło</string>
+    <string name="text_remember_e_mail">Zapamiętaj e-mail</string>
+    <string name="text_login">Zaloguj się</string>
+    <string name="text_remind_password">Przypomnij hasło</string>
+    <string name="text_password_recovery">Aby odzyskać hasło podaj adres e-mail i sprawdź swoją skrzynkę odbiorczą</string>
+    <string name="text_confirm">Zatwierdź</string>
+    <string name="title_home">Strona główna</string>
+    <string name="description_user_icon">user_icon</string>
+    <string name="description_settings_icon">settings_icon</string>
+    <string name="description_logout_icon">logout_icon</string>
+    <string name="title_presence">Obecności</string>
+    <string name="text_schedule">Plan zajęć</string>
+    <string name="text_scan_qr">Skanuj kod QR</string>
+    <string name="description_pollub_logo">pollub_logo</string>
+    <string name="title_password_recovery">Odzyskiwanie hasła</string>
+    <string name="description_left_arrow_icon">left_arrow_icon</string>
+    <string name="description_home_icon">home_icon</string>
+    <string name="text_select_subject">Wybierz przedmiot</string>
+    <string name="text_select_group">Wybierz grupę</string>
+    <string name="text_filter">Filtruj</string>
+    <string name="text_subject">Przedmiot:</string>
+    <string name="text_example_subject">Projekt zespołowy</string>
+    <string name="text_group">Grupa:</string>
+    <string name="text_example_group">IIST 6.3/6</string>
+    <string name="text_list_of_lessons">Lista zajęć</string>
+    <string name="text_whole_attendance">Całościowa frekwencja</string>
+    <string name="title_attendance">Frekwencja</string>
+    <string name="text_surname">Nazwisko:</string>
+    <string name="text_example_surname">Kowalski</string>
+    <string name="text_name">Imię:</string>
+    <string name="text_example_name">Jan</string>
+    <string name="text_id">ID:</string>
+    <string name="text_example_id">99999</string>
+    <string name="text_attendance2">Frekwencja:</string>
+    <string name="text_example_attendance">80</string>
+    <string name="text_percent">%</string>
+    <string name="title_list_of_lessons">Lista zajęć</string>
+    <string name="text_date">Data:</string>
+    <string name="text_example_date">21.03.2022</string>
+    <string name="text_hour">Godzina:</string>
+    <string name="text_example_hour">10:15</string>
+    <string name="text_dash">-</string>
+    <string name="text_example_hour2">12:00</string>
+    <string name="text_show_attendance_list">Wyświetl listę obecności</string>
+    <string name="text_example_status">Usprawiedliwiony</string>
+    <string name="title_scan_code">Skanowanie kodu</string>
+    <string name="text_scan_code">Skanuj</string>
+    <string name="hint_code_qr">Wpisz kod QR</string>
+    <string name="text_confirm_code">Zatwierdź kod</string>
+    <string name="title_settings">Ustawienia</string>
+    <string name="description_moon_icon">moon_icon</string>
+    <string name="text_night_mode">Tryb nocny</string>
+    <string name="description_pin_icon">pin_icon</string>
+    <string name="text_gps_access">Dostęp\ndo lokalizacji</string>
+    <string name="description_camera_icon">camera_icon</string>
+    <string name="text_camera_access">Dostęp\ndo aparatu</string>
+    <string name="description_pencil_icon">pencil_icon</string>
+    <string name="text_font">Czcionka</string>
+    <string name="text_change">Zmień</string>
+    <string name="title_profile">Moje konto</string>
+    <string name="description_avatar">avatar</string>
+    <string name="text_change_password">Zmień hasło</string>
+    <string name="text_logged_as_student">Zalogowano jako student</string>
+    <string name="title_change_password">Zmiana hasła</string>
+    <string name="text_old_password">Stare hasło</string>
+    <string name="text_new_password">Nowe hasło</string>
+    <string name="text_new_password_repeat">Powtórz nowe hasło</string>
+    <string name="title_lesson_details">Szczegóły zajęć</string>
+    <string name="text_classroom">Sala:</string>
+    <string name="text_example_classroom">PE123</string>
+    <string name="text_lecturer">Prowadzący:</string>
+    <string name="text_example_degree">dr inż.</string>
+    <string name="text_cancel">Anuluj</string>
+    <string name="title_my_presence">Moje obecności</string>
+    <string name="text_show_presence">Pokaż obecności</string>
+    <string name="title_attendance_list">Lista obecności</string>
+    <string-array name="statusy_obecnosci">
+        <item>Nieobecny</item>
+        <item>Obecny</item>
+        <item>Usprawiedliwiony</item>
+        <item>Zwolniony</item>
+    </string-array>
+    <string-array name="my_header_title">
+        <item></item>
+        <item>Pon</item>
+        <item>Wt</item>
+        <item>Sr</item>
+        <item>Czw</item>
+        <item>Pt</item>
+        <item>Sob</item>
+        <item>Nie</item>
+    </string-array>
+    <string-array name="my_sticker_color">
+        <item>#F7AA62</item>
+    </string-array>
+    <string name="subject_spinner_default">Wybierz przedmiot</string>
+    <string name="group_spinner_default">Wybierz grupę</string>
+    <string name="day_of_week">Dzień tygodnia:</string>
+    <string name="title">Tytuł:</string>
+    <string name="example_day_of_week">Poniedziałek</string>
+    <string-array name="default_header_title">
+        <item></item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+    </string-array>
+
+</resources>
