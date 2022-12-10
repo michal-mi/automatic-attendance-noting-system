@@ -16,7 +16,7 @@ System for checking student attendance by scanning QR codes allowing also for ma
 # Installation
 ## 1. Database
 Create database using sql files stored in folder **Database**. 
-(You can create your database locally by creating, for example, a mysql docker container and importing data into it, or by using a dedicated MySQL Server application. You can also create a database using, for example, the Amazon AWS service or by using remotemysql.com.
+You can create your database locally by creating, mysql docker container and importing data into it or by using a dedicated MySQL Server application. You can also create a database with global access using, for example, the Amazon AWS service or by using remotemysql.com.
 Your database schema should look like this:
 <img src="https://github.com/michal-mi/automatic-attendance-noting-system/blob/ProjektZespolowy/Database/ERD.png?raw=true" width="100%"/>
 ## 2. Server
