@@ -57,7 +57,7 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:background="@drawable/white_background"
@@ -69,11 +69,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-        <TableRow
-            android:layout_width="123dp"
-            android:layout_height="39dp"
-            android:gravity="center"
-            android:paddingHorizontal="15dp">
+        <TableRow android:gravity="center">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -91,7 +87,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.SwitchCompat
-                android:layout_width="66dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
 
@@ -115,7 +111,7 @@
                 android:textSize="24sp" />
 
             <com.google.android.material.switchmaterial.SwitchMaterial
-                android:layout_width="86dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
         </TableRow>

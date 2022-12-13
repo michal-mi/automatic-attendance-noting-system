@@ -14,9 +14,9 @@ public class Schedule implements Serializable {
     String classTitle="";
     String classPlace="";
     String professorName="";
-    private int day = 0;
-    private Time startTime;
-    private Time endTime;
+    protected int day = 0;
+    protected Time startTime;
+    protected Time endTime;
 
     public Schedule() {
         this.startTime = new Time();

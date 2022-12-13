@@ -9,11 +9,11 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.presenceqr.AttendanceList;
-import com.example.presenceqr.models.GroupSubject;
+import com.example.presenceqr.activities.AttendanceList;
+import com.example.presenceqr.GroupSubject;
 import com.example.presenceqr.models.LessonsListModel;
 import com.example.presenceqr.R;
-import com.example.presenceqr.models.User;
+import com.example.presenceqr.User;
 import com.example.presenceqr.viewholders.LessonsListViewHolder;
 
 import java.util.List;

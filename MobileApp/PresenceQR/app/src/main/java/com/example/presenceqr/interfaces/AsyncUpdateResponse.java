@@ -1,5 +1,5 @@
 package com.example.presenceqr.interfaces;
 
 public interface AsyncUpdateResponse {
-    void onUpdateExecute(String jsonString);
+    void onUpdateExecute(String responseJsonString, int responseCode);
 }

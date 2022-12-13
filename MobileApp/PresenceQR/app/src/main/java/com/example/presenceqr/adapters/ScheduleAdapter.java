@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.presenceqr.R;
 import com.example.presenceqr.models.ScheduleModel;
-import com.example.presenceqr.models.User;
+import com.example.presenceqr.User;
 import com.example.presenceqr.viewholders.ScheduleViewHolder;
 
 import java.util.List;

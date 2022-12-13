@@ -17,21 +17,21 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.PresenceQR">
 
-        <activity android:name=".ChangePassword">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".QRCode">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".ClassesSchedule">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".ClassDetails">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".LecturerPresence"></activity>
-        <activity android:name=".Profile">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".Settings">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".Home">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".PasswordRecovery">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".Attendance">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".StudentPresence">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".LessonsList">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
-        <activity android:name=".AttendanceList">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.ChangePassword">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.QRCode">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.ClassesSchedule">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.ClassDetails">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.LecturerPresence"></activity>
+        <activity android:name=".activities.Profile">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.Settings">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.Home">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.PasswordRecovery">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.Attendance">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.StudentPresence">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.LessonsList">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
+        <activity android:name=".activities.AttendanceList">android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"</activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

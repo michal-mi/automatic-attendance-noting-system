@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 
-import com.example.presenceqr.MainActivity;
+import com.example.presenceqr.activities.MainActivity;
 
 public class ErrorManager {
     public static void ManageErrorResponseCode(int responseCode, Context context){
